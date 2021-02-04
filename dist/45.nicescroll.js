@@ -2900,7 +2900,7 @@
       } else {
         hasparentscrollingphase = false;
         e.stopImmediatePropagation();
-        return e.preventDefault();
+        return false;
       }
 
     }
