@@ -1,20 +1,20 @@
 {
-  "name": "jquery.nicescroll",
-  "version": "3.7.6",
-  "bugs": "https://github.com/inuyaksa/jquery.nicescroll/issues",
+  "name": "45.nicescroll",
+  "version": "0.0.2",
+  "bugs": "https://github.com/4nkit-5hukla/45.nicescroll/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:inuyaksa/jquery.nicescroll.git"
+    "url": "git@github.com:4nkit-5hukla/45.nicescroll.git"
   },
-  "title": "jQuery.NiceScroll",
+  "title": "45.nicescroll",
   "author": {
-    "name": "InuYaksa",
-    "url": "https://github.com/inuyaksa"
+    "name": "4nkit-5hukla",
+    "url": "https://github.com/4nkit-5hukla"
   },
   "license": "MIT",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/inuyaksa/jquery.nicescroll.git",
+    "target": "git://github.com/4nkit-5hukla/45.nicescroll.git",
     "basePath": "dist",
     "files": [
       "**/*"
@@ -43,9 +43,9 @@
     "surface",
     "edge"
   ],
-  "homepage": "https://github.com/inuyaksa/jquery.nicescroll",
+  "homepage": "https://github.com/4nkit-5hukla/45.nicescroll",
   "contributors": [
-    "inuyaksa",
+    "4nkit-5hukla",
     "GianlucaGuarini",
     "nkovacs",
     "zcourts",
@@ -61,15 +61,15 @@
     "TNKSoftware"
   ],
   "files": [
-    "dist/jquery.nicescroll.js",
-    "dist/jquery.nicescroll.min.js",
+    "dist/45.nicescroll.js",
+    "dist/45.nicescroll.min.js",
     "dist/zoomico.png"
   ],
-  "main": "jquery.nicescroll.js",
+  "main": "45.nicescroll.js",
   "dependencies": {
     "jquery": ">=1.8.3"
   },
-  "npmName": "jquery.nicescroll",
+  "npmName": "45.nicescroll",
   "npmFileMap": [
     {
       "basePath": "/dist/",

@@ -1,13 +1,13 @@
-# jQuery.NiceScroll
-v. 3.7.6
+# 45.NiceScroll
+v. 0.0.1
 
 ## The best nicescroll release ever - extremely smooth and consistent in modern browsers and mobile devices, with low resource usage
 
  - [Web Site: nicescroll.areaaperta.com](https://nicescroll.areaaperta.com)
- - [Repo: github.com/inuyaksa/jquery.nicescroll](https://github.com/inuyaksa/jquery.nicescroll)
+ - [Repo: github.com/4nkit-5hukla/45.nicescroll](https://github.com/4nkit-5hukla/45.nicescroll)
  - [Twitter: @nicescroll](https://twitter.com/nicescroll)
 
- [![Join the chat at https://gitter.im/inuyaksa/jquery.nicescroll](https://badges.gitter.im/inuyaksa/jquery.nicescroll.svg)](https://gitter.im/inuyaksa/jquery.nicescroll?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ [![Join the chat at https://gitter.im/4nkit-5hukla/45.nicescroll](https://badges.gitter.im/4nkit-5hukla/45.nicescroll.svg)](https://gitter.im/4nkit-5hukla/45.nicescroll?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > Nicescroll as a Greasemonkey plugin: http://userscripts.org/scripts/show/119910 (freezed)
 
@@ -66,9 +66,9 @@ Warning for IE6/7 users (why do you uses yet? Please updgrade to a more stable a
 * INSTALLATION
 Put loading script tag after jquery script tag and loading the zoom image in the same folder of the script:
 
-<script src="jquery.nicescroll.js"></script>
+<script src="45.nicescroll.js"></script>
 
-When you use zoom feature, copy image "zoomico.png" in the same folder of jquery.nicescroll.js.
+When you use zoom feature, copy image "zoomico.png" in the same folder of 45.nicescroll.js.
 
 
 * HOW TO USE
@@ -180,7 +180,7 @@ Related projects
 
 * LICENSE
 
-## Copyright 2011-17 InuYaksa
+## Copyright 2011-17 4nkit-5hukla
 
 ###### Licensed under the MIT License, http://www.opensource.org/licenses/mit-license.php
 

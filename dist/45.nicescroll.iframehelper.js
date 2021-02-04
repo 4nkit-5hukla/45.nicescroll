@@ -1,10 +1,10 @@
-/* iframe script helper for jquery.nicescroll
+/* iframe script helper for 45.nicescroll
 -- version 0.9.0
--- copyright 2017-06-18 InuYaksa*2017
+-- copyright 2017-06-18 4nkit-5hukla*2017
 -- licensed under the MIT
 --
 -- https://nicescroll.areaaperta.com/
--- https://github.com/inuyaksa/jquery.nicescroll
+-- https://github.com/4nkit-5hukla/45.nicescroll
 --
 */
 

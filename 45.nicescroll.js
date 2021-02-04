@@ -1,10 +1,10 @@
-/* jquery.nicescroll
--- version 3.7.6
--- copyright 2017-07-19 InuYaksa*2017
+/* 45.nicescroll
+-- version 0.0.1
+-- copyright 2017-07-19 4nkit-5hukla*2017
 -- licensed under the MIT
 --
 -- https://nicescroll.areaaperta.com/
--- https://github.com/inuyaksa/jquery.nicescroll
+-- https://github.com/4nkit-5hukla/45.nicescroll
 --
 */
 
@@ -130,7 +130,8 @@
     preventmultitouchscrolling: true,
     disablemutationobserver: false,
     enableobserver: true,
-    scrollbarid: false
+    scrollbarid: false,
+    scrollCLass: false
   };
 
   var browserdetected = false;
@@ -876,6 +877,10 @@
         rail.attr('id', self.id);
         rail.addClass('nicescroll-rails nicescroll-rails-vr');
 
+        if (opt.scrollCLass) {
+            rail.addClass(opt.scrollCLass);
+        }
+
         var v, a, kp = ["left", "right", "top", "bottom"];  //**
         for (var n in kp) {
           a = kp[n];
@@ -968,6 +973,10 @@
           railh = $(_doc.createElement('div'));
           railh.attr('id', self.id + '-hr');
           railh.addClass('nicescroll-rails nicescroll-rails-hr');
+          if (opt.scrollCLass) {
+              railh.addClass(opt.scrollCLass);
+          }
+
           railh.height = Math.max(parseFloat(opt.cursorwidth), cursor.outerHeight());
           railh.css({
             height: railh.height + "px",
@@ -2303,7 +2312,7 @@
       if (!self.hasborderbox) self.scrollvaluemax -= self.cursor[0].offsetHeight - self.cursor[0].clientHeight;
 
       if (self.railh) {
-        self.railh.width = (self.page.maxh > 0) ? (self.rail.width) : self.view.w;
+        self.railh.width = (self.page.maxh > 0) ? (self.view.w - self.rail.width) : self.view.w;
         self.scrollvaluemaxw = self.railh.width - self.cursorwidth - (opt.railpadding.left + opt.railpadding.right);
       }
 
@@ -2543,7 +2552,7 @@
         q: false
       });
 
-      (passiveSupported && active) ? el.addEventListener(name, fn, { passive: false, capture: bubble }) : el.addEventListener(name, fn, bubble || false);
+      (passiveSupported && (active || el == window.document || el == window.document.body || el == window)) ? el.addEventListener(name, fn, { passive: false, capture: bubble }) : el.addEventListener(name, fn, bubble || false);
     };
 
     this._unbind = function (el, name, fn, bub) { // primitive unbind

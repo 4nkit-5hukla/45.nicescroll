@@ -1,7 +1,7 @@
 {
-    "name": "jquery.nicescroll",
+    "name": "45.nicescroll",
     "main": [
-        "./jquery.nicescroll.min.js"
+        "./45.nicescroll.min.js"
     ],
     "ignore": [
         "**/.*",
